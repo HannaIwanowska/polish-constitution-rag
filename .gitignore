@@ -1,0 +1,27 @@
+# Sekrety
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Dane wektorowe 
+chroma_db/
+
+# Modele LLM 
+*.gguf
+*.bin
+*.safetensors
+minitron-*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
