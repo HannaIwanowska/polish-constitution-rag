@@ -1,7 +1,6 @@
 import re
 import os
 from langchain_core.documents import Document
-from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings # NOWY IMPORT
 from dotenv import load_dotenv
